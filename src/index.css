@@ -1,0 +1,10 @@
+/* @tailwind base; */
+/* 
+  bỏ preflight fix lỗi MUI và Tailwind 
+  https://mui.com/material-ui/guides/interoperability/#tailwind-css 
+  https://tailwindcss.com/docs/preflight
+*/
+/* Copy lại file preflight & bỏ background-color: transparent; */
+@import "preflight.css"; 
+@tailwind components;
+@tailwind utilities;

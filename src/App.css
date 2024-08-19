@@ -1,0 +1,58 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-multiline {
+    padding: 0px !important;
+}
+
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    background-color: white !important;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+.react-datepicker__input-container>input{
+    width: 100%;
+}
+
+.rpv-open__input-wrapper{
+    display: none;
+}
+
+.ck-editor__editable {
+    height: 300px;
+}
+
+.filter-ContentDeterminationForm>div{
+    width: calc(100% - 258px);
+}
+.filter-ContentDeterminationForm>div:first-child{
+    width: unset;
+}
+
+.css-yrxkki-MuiButtonBase-root-MuiTab-root {
+    text-transform: none;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+    padding: 0 30px;
+}
+
+/* .css-11gve8t-MuiChartsSurface-root {
+    --ChartsLegend-itemWidth: 100px;
+    --ChartsLegend-itemMarkSize: 20px;
+    --ChartsLegend-rootSpacing: 5px;
+    --ChartsLegend-labelSpacing: 5px;
+    --ChartsLegend-rootOffsetY: -20px;
+    margin-top: -40px;
+} */
+
+.trangThaiMinhChung {
+    --ChartsLegend-rootSpacing: 60px !important;
+}
