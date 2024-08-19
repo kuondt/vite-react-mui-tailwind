@@ -235,6 +235,6 @@ export const changeAction = {
   ThamDinh_TuDanhGia: "Appraisal_SelfAssessment",
   ThamDinh_DanhGiaNgoai: "Appraisal_ExternalAssessment",
   ThamDinh_YeuCauDanhGiaNgoai: "Appraisal_RequestExternalAssessment",
-  
-  TaiLieu: "Document"
+
+  TaiLieu: "Document",
 };
