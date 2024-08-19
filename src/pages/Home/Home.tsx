@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <div className="text-3xl flex justify-center items-center bg-slate-200">
-        Home
+        Trang chủ
       </div>
     </>
   );
